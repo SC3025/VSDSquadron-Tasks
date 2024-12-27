@@ -1,5 +1,8 @@
 # VSDSquadron-Tasks
 Risc V internship Weekly Tasks
+WEEK 1 
+
+Intialisation included opening the Oracle virtual box machine and creating a new textpad and terminal.
 
 ![Screenshot 2024-12-26 105132](https://github.com/user-attachments/assets/b096bc4a-9349-4155-a905-f488c4f711dc)
 
