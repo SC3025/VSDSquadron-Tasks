@@ -102,3 +102,11 @@ opcode (6-0): Specifies the jump operation, such as Jump and Link (JAL).
 rd (11-7): The destination register, where the return address (the address of the next instruction) is stored.
 
 imm[20] (31:31), imm[10:1] (30:21), imm[11] (20:20), and imm[19:12] (19:12): The immediate value used to calculate the target address for the jump. The instruction fields are combined to form the full 20-bit immediate value, which is then used to determine the jump target relative to the current instruction.
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/84df9c3a-2228-48e4-bc23-0c3d29993b94)
+
