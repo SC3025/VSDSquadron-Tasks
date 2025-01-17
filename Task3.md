@@ -114,3 +114,26 @@ imm[20] (31:31), imm[10:1] (30:21), imm[11] (20:20), and imm[19:12] (19:12): The
 
 
 1.  lui a0, 0x21 (Address: 100b0) Instruction Type: U-Type Explanation: Loads the immediate value 0x21 into the upper 20 bits of the register a0.
+2. addi sp, sp, -16  (Address: 100b4) Instruction Type: I-Type Explanation: Adds an immediate value -16 to the sp register, effectively reserving 16 bytes of space on the stack.
+
+3.li a2, 15 (Address: 100b8) Instruction Type: I-Type Explanation: Loads the immediate value 15 into register a2. Internally, it is equivalent to addi a2, x0, 15.
+
+4.addi a0, a0, 384(Address: 100c0) Instruction Type: I-Type Explanation: Adds the immediate value 384 to the value in register a0. 6.sd ra, 8(sp)(Address: 100c4) Instruction Type: S-Type Explanation: Stores the value in register ra at the memory address sp + 8. This is used for storing data to memory.
+
+5.jal ra, 10408(Address: 100c8) Instruction Type: J-Type Explanation: The jal instruction jumps to the target address 10408 and stores the return address in register ra.
+
+
+
+6.addi sp, sp, 16(Address: 100d4) Instruction Type: I-Type Explanation: Adds the immediate value 16 to the sp register, effectively restoring the stack pointer after reserving space.
+
+7.li a1, 0 (Address: 100bc) Instruction Type: I-Type Explanation: Loads the immediate value 0 into register a1. Internally, it is equivalent to addi a1, x0, 0.
+
+
+8.ret(Address: 100d8) Instruction Type: I-Type (mapped to jalr) Explanation: Returns from the function by jumping to the address stored in ra, equivalent to jalr x0, ra, 0.
+
+9.li a2, 0 (Address: 100b8) Instruction Type: I-Type Explanation: Loads the immediate value 0 into register a2. Internally, it is equivalent to addi a3, x0, 0.
+
+10.li a3, 0 (Address: 100b8) Instruction Type: I-Type Explanation: Loads the immediate value 0 into register a3. Internally, it is equivalent to addi a3, x0, 0.
+
+
+
