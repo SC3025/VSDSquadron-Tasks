@@ -110,3 +110,7 @@ imm[20] (31:31), imm[10:1] (30:21), imm[11] (20:20), and imm[19:12] (19:12): The
 
 ![image](https://github.com/user-attachments/assets/84df9c3a-2228-48e4-bc23-0c3d29993b94)
 
+
+
+
+1.  lui a0, 0x21 (Address: 100b0) Instruction Type: U-Type Explanation: Loads the immediate value 0x21 into the upper 20 bits of the register a0.
