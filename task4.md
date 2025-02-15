@@ -57,11 +57,14 @@ gtkwave iiitb_rv32i.vcd
 
 
 5-Stage RISC Pipeline:
+---------------------
 
 
 
 
 1. Instruction Fetch (IF) Stage:
+   ---------------------------
+   
 Signals:
 IF_ID_IR: Instruction Register that holds the instruction fetched from memory.
 IF_ID_NPC: Next Program Counter, which holds the address of the next instruction to be fetched.
@@ -75,6 +78,7 @@ The Instruction Register (IR) is loaded with the fetched instruction, and the Ne
 
 
 2. Instruction Decode (ID) Stage:
+   --------------------------------
 Signals:
 ID_EX_A: The first register operand read from the register file.
 ID_EX_B: The second register operand read from the register file.
@@ -95,6 +99,8 @@ The decoded instruction and the corresponding values (operands and immediate) ar
 
 
 3. Execution (EX) Stage:
+   -------------------
+   
 Purpose:
 
 The Execution stage performs the actual computation or operation required by the instruction. It is the core of the processor where arithmetic, logic, and address calculations happen.
@@ -109,6 +115,7 @@ Address Calculation: For load and store instructions (I-type or S-type instructi
 
 
 4. Memory (MEM) Stage:
+   ------------------
 Purpose:
 
 The Memory stage is where memory operations are performed. If the instruction involves accessing data from memory, this is where the memory is read or written.
@@ -121,6 +128,7 @@ Store: For instructions like SW (Store Word), data is written to memory. The val
 
 
 5. Write-back (WB) Stage:
+   --------------------
 Purpose:
 
 The Write-back stage is the final stage in the pipeline where the result of the instruction (either an arithmetic result or data from memory) is written back to the register file, completing the instruction execution cycle.
