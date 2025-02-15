@@ -38,3 +38,6 @@ gtkwave iiitb_rv32i.vcd
 
 ![image](https://github.com/user-attachments/assets/51ed6a2c-f11d-4d2d-afb0-b7d75c446537)
 
+![image](https://github.com/user-attachments/assets/472870db-fc98-4531-87a9-cd52dbc91fb4)
+
+
