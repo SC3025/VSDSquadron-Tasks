@@ -2,6 +2,8 @@ The tasks mentioned above are related to the RISC V internship organized by VSLI
 
 
 Task 5 and Task 6 are a mini project demonstrating the practical usage of these boards.
+
+
 -1.Serial lighting of LED's.
 
 
