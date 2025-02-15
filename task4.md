@@ -12,7 +12,7 @@ INSTALLATION STEPS
 (1) Installing:
 sudo apt-get update
 sudo apt-get install iverilog gtkwave
-----------------------
+-------------------------------
 
 
 (2) Generating files:
@@ -24,13 +24,17 @@ MAKE TWO FILES IN .v FORMAT AS SAID EARLIER FOR VERILOG NETLIST AND FOR THE TEST
 
 (3) Compiling the iverilog:
 iverilog -o my_simulation.vvp sv.v sbt.v
-----------------------
+--------------------------------
+
+
+
 (4) To run the simulation:
 vvp my_simulation.vvp
-
+------------------------------------
 Waveform Using GTKWave:
 gtkwave iiitb_rv32i.vcd
 [it will give the simulation]
 [ if the vcd file is not found to be in directory then give commant : "ls -1" and see the .vcd file in the directory and run the command for GTKwave]
 
+![image](https://github.com/user-attachments/assets/51ed6a2c-f11d-4d2d-afb0-b7d75c446537)
 
