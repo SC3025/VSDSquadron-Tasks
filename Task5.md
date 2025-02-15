@@ -80,6 +80,24 @@ Energy usage should be optimized to prevent draining stored power too quickly.
 🚀 Summary
 Using an LTC3588 energy harvester with a solar panel or piezoelectric element, we can generate and regulate power to operate the VSD Squadron Board. A capacitor helps store and stabilize energy, allowing the board to power LEDs, sensors, and other embedded applications while relying on harvested energy.
 
+
+-------------------------------------------------------
+The LTC3588 Energy Harvester is responsible for converting small amounts of energy (from solar, piezoelectric, etc.) into a stable voltage output (e.g., 3.3V or 5V). However, it cannot provide instant high power when a load (like the VSD Squadron Board) suddenly draws current.
+
+This is where the capacitor comes in: ✅ Energy Storage:
+
+The capacitor stores charge when power is available, allowing it to release energy quickly when needed.
+If the energy harvester supplies very low current, the capacitor acts as a power reserve.
+✅ Smoothing Voltage Fluctuations:
+
+Some energy sources (like solar panels in changing light conditions) do not provide constant power.
+The capacitor stabilizes the output voltage, preventing dips that could cause system failures.
+✅ Helps With Power Bursts:
+
+If your circuit (e.g., microcontroller) suddenly needs more power, the capacitor delivers the extra energy instantly, while the harvester catches up.
+
+![WIN_20250215_09_56_02_Pro](https://github.com/user-attachments/assets/06b72d67-915f-47ae-984e-72233bee71d7)
+
 ![WIN_20250215_09_55_10_Pro](https://github.com/user-attachments/assets/4c344ab6-a142-4f80-8d90-567836e26f09)
 
 
