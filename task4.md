@@ -55,6 +55,12 @@ gtkwave iiitb_rv32i.vcd
 ---------------------------------------------------------
 ---------------------------------------------------------
 
+
+5-Stage RISC Pipeline:
+
+
+
+
 1. Instruction Fetch (IF) Stage:
 Signals:
 IF_ID_IR: Instruction Register that holds the instruction fetched from memory.
