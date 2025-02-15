@@ -54,9 +54,17 @@ Solar Panel – Captures sunlight and generates a small DC voltage (typically 3V
 Piezoelectric Element – Converts mechanical vibrations into AC power, which is rectified and stored for use.
 Capacitor (e.g., 200µF - 1000µF) – Stores charge from the energy harvester, stabilizing voltage output and allowing short bursts of power when needed.
 🔋 How Power Flows Through the System
+
 1️⃣ The solar panel or piezoelectric element generates power.
+
+
 2️⃣ The LTC3588 harvests and regulates this power to a stable 3.3V or 5V output.
+
+
 3️⃣ A capacitor smooths fluctuations and stores energy to provide continuous power.
+
+
+
 4️⃣ The VSD Squadron Board is connected to the LTC3588 VCC (3.3V or 5V) and GND, enabling it to operate even if the energy input is unstable.
 
 💡 How to Power an LED or Perform Other Tasks on the VSD Squadron Board
@@ -95,6 +103,16 @@ The capacitor stabilizes the output voltage, preventing dips that could cause sy
 ✅ Helps With Power Bursts:
 
 If your circuit (e.g., microcontroller) suddenly needs more power, the capacitor delivers the extra energy instantly, while the harvester catches up.
+
+1.Piezoelectric element
+
+
+2.Energy harvester
+
+
+
+3.200 microfarad capcitor
+
 
 ![WIN_20250215_09_56_02_Pro](https://github.com/user-attachments/assets/06b72d67-915f-47ae-984e-72233bee71d7)
 
