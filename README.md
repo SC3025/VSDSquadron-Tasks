@@ -1,1 +1,2 @@
-The above tasks are tasks related to the RISC V internship by the VSLI System Design(VSD).They contain a breif summary of each task performed and the subsequent steps to folllow to replicte the tasks
+The tasks mentioned above are related to the RISC V internship organized by VSLI System Design (VSD). Each task includes a detailed summary of the activities performed, as well as the subsequent steps to follow in order to replicate those tasks effectively. Understanding these summaries is crucial for anyone wishing to join the internship program, as they provide a clear insight into the objectives and methods employed.
+
