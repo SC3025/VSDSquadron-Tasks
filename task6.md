@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/6c76b190-9315-4303-81df-a07cdf4670e9
 
 
 
-1.Piezoelectric element (in above picture it is replaced by Solar panel)
+1.Piezoelectric element (in below picture it is replaced by Solar panel)
 
 
 2.Energy harvester
